@@ -108,7 +108,24 @@ p{
 .blog-date{
     display: inline-block;
     margin-right: 50px;
+    color: #b8cdd6;
 }
 .blog-link {
     display: inline-block;
 }
+
+.experience-item {
+    display: flex;
+    margin-bottom: 20px; /* Adjust spacing between items */
+}
+
+.experience-date {
+    flex: 0 0 250px; /* Set a specific width for date container */
+    margin-right: 20px; /* Adjust spacing between date and info */
+    color: #b8cdd6;
+}
+
+.experience-info {
+    flex: 1; /* Allow info container to expand to fill available space */
+}
+
