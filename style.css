@@ -50,7 +50,7 @@ p{
     color: #05a5f5; /* Adjust icon color on hover */
 }
 .medium:hover {
-    border-bottom: 1px solid red; 
+    border-bottom: 1px solid blue; 
 }
 .footer{
     font-size: 12px;
@@ -97,6 +97,10 @@ p{
 .project-img img{
     width: 250px;
     height: 150px;
+    display: block;
+}
+.project-img:hover img{
+    transform: scale(1.05);
 }
 .project-description{
     margin-left: 100px;
