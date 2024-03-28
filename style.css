@@ -47,7 +47,7 @@ p{
 }
 
 .social-icon:hover {
-    color: orange; /* Adjust icon color on hover */
+    color: #05a5f5; /* Adjust icon color on hover */
 }
 .medium:hover {
     border-bottom: 1px solid #05a5f5; 
@@ -100,4 +100,15 @@ p{
 }
 .project-description{
     margin-left: 100px;
+}
+.blog-item {
+    display: inline-block;
+}
+
+.blog-date{
+    display: inline-block;
+    margin-right: 50px;
+}
+.blog-link {
+    display: inline-block;
 }
