@@ -95,8 +95,8 @@ p{
     display: flex;
 }
 .project-img img{
-    width: 350px;
-    height: 200px;
+    width: 250px;
+    height: 150px;
 }
 .project-description{
     margin-left: 100px;
